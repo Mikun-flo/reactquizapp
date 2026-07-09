@@ -1,0 +1,307 @@
+{
+  "quizzes": [
+    {
+      "title": "History",
+      "icon": "history",
+      "color": "var(--color-history)",
+      "questions": [
+        {
+          "question": "Who was the first Emperor of Rome?",
+          "options": ["Julius Caesar", "Augustus", "Nero", "Marcus Aurelius"],
+          "answer": "Augustus"
+        },
+        {
+          "question": "In which year did the Titanic sink?",
+          "options": ["1905", "1912", "1918", "1920"],
+          "answer": "1912"
+        },
+        {
+          "question": "Who was the first woman to win a Nobel Prize?",
+          "options": [
+            "Marie Curie",
+            "Rosalind Franklin",
+            "Ada Lovelace",
+            "Dorothy Hodgkin"
+          ],
+          "answer": "Marie Curie"
+        },
+        {
+          "question": "What was the name of the ancient trade route that connected the East and West?",
+          "options": [
+            "The Spice Route",
+            "The Amber Road",
+            "The Silk Road",
+            "The Incense Route"
+          ],
+          "answer": "The Silk Road"
+        },
+        {
+          "question": "Which empire was ruled by Montezuma II?",
+          "options": [
+            "Inca Empire",
+            "Aztec Empire",
+            "Maya Empire",
+            "Olmec Empire"
+          ],
+          "answer": "Aztec Empire"
+        },
+        {
+          "question": "The Magna Carta was signed by King John in which year?",
+          "options": ["1066", "1215", "1348", "1492"],
+          "answer": "1215"
+        },
+        {
+          "question": "Which country was ruled by the Pharaonic Dynasties?",
+          "options": ["Greece", "Persia", "Egypt", "Rome"],
+          "answer": "Egypt"
+        },
+        {
+          "question": "Who was the main author of the Declaration of Independence of the United States?",
+          "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "Benjamin Franklin",
+            "John Adams"
+          ],
+          "answer": "Thomas Jefferson"
+        },
+        {
+          "question": "What event in 1989 symbolised the collapse of communism in Eastern Europe?",
+          "options": [
+            "The Chernobyl disaster",
+            "The fall of the Berlin Wall",
+            "The Velvet Revolution",
+            "The signing of the INF Treaty"
+          ],
+          "answer": "The fall of the Berlin Wall"
+        },
+        {
+          "question": "Which ancient civilization built the city of Machu Picchu?",
+          "options": ["Aztec", "Maya", "Zapotec", "Inca"],
+          "answer": "Inca"
+        }
+      ]
+    },
+    {
+      "title": "Science & Nature",
+      "icon": "science",
+      "color": "var(--color-science)",
+      "questions": [
+        {
+          "question": "What is the powerhouse of the cell?",
+          "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi apparatus"],
+          "answer": "Mitochondria"
+        },
+        {
+          "question": "Which planet is closest to the Sun?",
+          "options": ["Venus", "Mercury", "Earth", "Mars"],
+          "answer": "Mercury"
+        },
+        {
+          "question": "What is the chemical symbol for gold?",
+          "options": ["Ag", "Au", "Fe", "Gd"],
+          "answer": "Au"
+        },
+        {
+          "question": "Which gas is most abundant in Earth's atmosphere?",
+          "options": ["Oxygen", "Carbon Dioxide", "Argon", "Nitrogen"],
+          "answer": "Nitrogen"
+        },
+        {
+          "question": "What is the main structural component of plant cell walls?",
+          "options": ["Cellulose", "Starch", "Chitin", "Glycogen"],
+          "answer": "Cellulose"
+        },
+        {
+          "question": "How long does it take for light from the Sun to reach Earth?",
+          "options": [
+            "About 8 seconds",
+            "About 8 minutes",
+            "About 8 hours",
+            "About 1 minute"
+          ],
+          "answer": "About 8 minutes"
+        },
+        {
+          "question": "What is the only mammal capable of true flight?",
+          "options": ["Bat", "Flying Squirrel", "Sugar Glider", "Flying Lemur"],
+          "answer": "Bat"
+        },
+        {
+          "question": "What is the hardest natural substance on Earth?",
+          "options": ["Corundum", "Quartz", "Diamond", "Talc"],
+          "answer": "Diamond"
+        },
+        {
+          "question": "Which organ in the human body is responsible for pumping blood?",
+          "options": ["Brain", "Lungs", "Liver", "Heart"],
+          "answer": "Heart"
+        },
+        {
+          "question": "What is the study of mushrooms and fungi called?",
+          "options": ["Botany", "Mycology", "Zoology", "Phycology"],
+          "answer": "Mycology"
+        }
+      ]
+    },
+    {
+      "title": "Geography",
+      "icon": "geography",
+      "color": "var(--color-geography)",
+      "questions": [
+        {
+          "question": "Which is the largest ocean on Earth?",
+          "options": [
+            "Atlantic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+          ],
+          "answer": "Pacific Ocean"
+        },
+        {
+          "question": "What is the capital city of Australia?",
+          "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+          "answer": "Canberra"
+        },
+        {
+          "question": "Which river is the longest in the world?",
+          "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+          "answer": "Nile"
+        },
+        {
+          "question": "Which mountain range separates Europe and Asia?",
+          "options": ["Alps", "Himalayas", "Ural Mountains", "Rocky Mountains"],
+          "answer": "Ural Mountains"
+        },
+        {
+          "question": "What is the smallest country in the world by land area?",
+          "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+          "answer": "Vatican City"
+        },
+        {
+          "question": "Which desert is the largest hot desert in the world?",
+          "options": ["Gobi", "Sahara", "Arabian", "Kalahari"],
+          "answer": "Sahara"
+        },
+        {
+          "question": "In which country would you find the ancient monument Stonehenge?",
+          "options": ["France", "Germany", "United Kingdom", "Ireland"],
+          "answer": "United Kingdom"
+        },
+        {
+          "question": "What is the capital city of Japan?",
+          "options": ["Kyoto", "Osaka", "Tokyo", "Sapporo"],
+          "answer": "Tokyo"
+        },
+        {
+          "question": "Which canal connects the Mediterranean Sea to the Red Sea?",
+          "options": ["Panama Canal", "Suez Canal", "Kiel Canal", "Erie Canal"],
+          "answer": "Suez Canal"
+        },
+        {
+          "question": "Which South American country has the largest land area?",
+          "options": ["Argentina", "Peru", "Colombia", "Brazil"],
+          "answer": "Brazil"
+        }
+      ]
+    },
+    {
+      "title": "Literature & Arts",
+      "icon": "literature",
+      "color": "var(--color-literature)",
+      "questions": [
+        {
+          "question": "Who wrote the play \"Romeo and Juliet\"?",
+          "options": [
+            "Christopher Marlowe",
+            "William Shakespeare",
+            "Ben Jonson",
+            "John Webster"
+          ],
+          "answer": "William Shakespeare"
+        },
+        {
+          "question": "Which artist painted the famous \"Mona Lisa\"?",
+          "options": [
+            "Michelangelo",
+            "Raphael",
+            "Leonardo da Vinci",
+            "Vincent van Gogh"
+          ],
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "What is the title of the first novel in the Harry Potter series?",
+          "options": [
+            "Harry Potter and the Chamber of Secrets",
+            "Harry Potter and the Prisoner of Azkaban",
+            "Harry Potter and the Philosopher's Stone",
+            "Harry Potter and the Goblet of Fire"
+          ],
+          "answer": "Harry Potter and the Philosopher's Stone"
+        },
+        {
+          "question": "Who wrote the dystopian novel \"1984\"?",
+          "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "H.G. Wells"
+          ],
+          "answer": "George Orwell"
+        },
+        {
+          "question": "Which artist cut off his own left ear?",
+          "options": [
+            "Pablo Picasso",
+            "Claude Monet",
+            "Vincent van Gogh",
+            "Salvador Dalí"
+          ],
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "question": "What is the street name where Sherlock Holmes lives in London?",
+          "options": [
+            "Abbey Road",
+            "Fleet Street",
+            "Baker Street",
+            "Downing Street"
+          ],
+          "answer": "Baker Street"
+        },
+        {
+          "question": "Who is the author of \"Pride and Prejudice\"?",
+          "options": [
+            "Charlotte Brontë",
+            "Jane Austen",
+            "Emily Brontë",
+            "Mary Shelley"
+          ],
+          "answer": "Jane Austen"
+        },
+        {
+          "question": "Which musical period does Johann Sebastian Bach belong to?",
+          "options": ["Classical", "Romantic", "Renaissance", "Baroque"],
+          "answer": "Baroque"
+        },
+        {
+          "question": "What style of art is Salvador Dalí famous for?",
+          "options": ["Impressionism", "Cubism", "Surrealism", "Expressionism"],
+          "answer": "Surrealism"
+        },
+        {
+          "question": "Which epic poem is attributed to the ancient Greek poet Homer?",
+          "options": [
+            "The Aeneid",
+            "The Epic of Gilgamesh",
+            "Paradise Lost",
+            "The Odyssey"
+          ],
+          "answer": "The Odyssey"
+        }
+      ]
+    }
+  ]
+}
