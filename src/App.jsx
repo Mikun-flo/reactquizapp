@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header.jsx';
 import SubjectSelection from './components/SubjectSelection.jsx';
-import QuizContainer from './cmponents/QuizContainer.jsx';
+import QuizContainer from './components/QuizContainer.jsx';
 import Results from './components/Results.jsx';
-import quizData from './components/questions.json';
+import quizData from './questions.json';
+
 export default function App() {
   // Theme State (Persisted in Local Storage)
   const [theme, setTheme] = useState(() => {
