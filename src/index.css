@@ -170,6 +170,22 @@ body {
   font-weight: 500;
   color: var(--text-primary);
 }
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+}
+.btn-back .back-icon,
+.btn-back span {
+  color: white;
+}
 .theme-toggle-container {
   display: flex;
   align-items: center;

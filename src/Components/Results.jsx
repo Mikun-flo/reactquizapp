@@ -1,60 +1,33 @@
-import React from "react";
 import SVGIcon from "./SVGIcon.jsx";
-export default function Header({
-  currentSubject,
-  view,
-  onGoBack,
-  theme,
-  onThemeToggle,
-}) {
-  return (
-    <header class="app-header">
-      {/* Left side: Back Button & Active Subject Badge */}
-      <div class="header-left-container" aria-live="polite">
-        {view !== "selection" && (
-          <button
-            onClick={onGoBack}
-            className="btn-back"
-            aria-label="Go back to subject selection"
-            type="button"
-          >
-            <SVGIcon name="back" className="back-icon" />
-            <span>Go Back</span>
-          </button>
-        )}
-        {currentSubject && (
-          <div className="active-subject">
-            <div className={`icon-badge ${currentSubject.icon}`}>
-              <SVGIcon name={currentSubject.icon} />
-            </div>
-            <span>{currentSubject.title}</span>
-          </div>
-        )}
-      </div>
-      {/* Right side: Theme Switcher */}
-      <div className="theme-toggle-container">
-        <SVGIcon
-          name="sun"
-          className="theme-icon sun-icon"
-          aria-hidden="true"
-        />
 
-        <label className="switch" htmlFor="theme-toggle">
-          <input
-            type="checkbox"
-            id="theme-toggle"
-            checked={theme === "dark"}
-            onChange={onThemeToggle}
-            aria-label="Toggle dark theme"
-          />
-          <span className="slider round"></span>
-        </label>
-        <SVGIcon
-          name="moon"
-          className="theme-icon moon-icon"
-          aria-hidden="true"
-        />
+export default function Results({ currentSubject, score, onPlayAgain }) {
+  const totalQuestions = currentSubject?.questions?.length ?? 0;
+  const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
+
+  return (
+    <div className="grid-layout">
+      <div className="results-card">
+        <div className="results-subject-header">
+          <div className={`icon-badge ${currentSubject?.icon}`}>
+            <SVGIcon name={currentSubject?.icon || "history"} />
+          </div>
+          <div>
+            <p className="results-label">{currentSubject?.title || "Quiz"}</p>
+            <p className="results-score-label">Quiz complete</p>
+          </div>
+        </div>
+
+        <div>
+          <div className="results-score-big">{score}</div>
+          <p className="results-score-label">
+            {percentage}% correct • {score} of {totalQuestions} correct
+          </p>
+        </div>
+
+        <button className="btn-primary" type="button" onClick={onPlayAgain}>
+          Play again
+        </button>
       </div>
-    </header>
+    </div>
   );
 }

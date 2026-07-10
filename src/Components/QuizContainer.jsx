@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import SVGIcon from "./SVGIcon.jsx";
 const OPTION_LABELS = ["A", "B", "C", "D"];
 export default function QuizContainer({

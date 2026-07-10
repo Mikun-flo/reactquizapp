@@ -1,4 +1,3 @@
-import React from "react";
 import SVGIcon from "./SVGIcon.jsx";
 export default function Header({
   currentSubject,
@@ -8,9 +7,9 @@ export default function Header({
   onThemeToggle,
 }) {
   return (
-    <header class="app-header">
+    <header className="app-header">
       {/* Left side: Back Button & Active Subject Badge */}
-      <div class="header-left-container" aria-live="polite">
+      <div className="header-left-container" aria-live="polite">
         {view !== "selection" && (
           <button
             onClick={onGoBack}
@@ -19,7 +18,7 @@ export default function Header({
             type="button"
           >
             <SVGIcon name="back" className="back-icon" />
-            <span>Go Back</span>
+            <span>back</span>
           </button>
         )}
         {currentSubject && (

@@ -1,4 +1,3 @@
-import React from "react";
 import SVGIcon from "./SVGIcon.jsx";
 export default function SubjectSelection({ quizzes, onSelectSubject }) {
   return (
