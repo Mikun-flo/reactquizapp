@@ -18,7 +18,7 @@ export default function Header({
             type="button"
           >
             <SVGIcon name="back" className="back-icon" />
-            <span>back</span>
+            <span>Go back</span>
           </button>
         )}
         {currentSubject && (

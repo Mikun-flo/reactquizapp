@@ -5,8 +5,8 @@ export default function SubjectSelection({ quizzes, onSelectSubject }) {
       {/* Intro Left Column */}
       <div className="intro-column">
         <h1 className="intro-title">
-          Welcome to the <br />
-          <span>Frontend Quiz by Mikun!</span>
+          Welcome to <br />
+          <span> Mikun's App!</span>
         </h1>
         <p className="intro-subtitle">Pick a subject to get started.</p>
       </div>

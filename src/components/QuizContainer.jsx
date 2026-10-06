@@ -42,7 +42,8 @@ export default function QuizContainer({
       onSelectAnswer(currentQuestion.options[targetIdx]);
       onClearErrorMessage();
     }
-  };
+  };  
+
   return (
     <div className="grid-layout">
       {/* Left Column: Progress & Question text */}
